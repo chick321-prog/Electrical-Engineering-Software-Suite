@@ -1,14 +1,12 @@
-# ⚡ Three-Phase Power Calculator
+# Three-Phase Power Calculator
 
-## 📖 Project Overview
+## Overview
 
-The Three-Phase Power Calculator is a software application developed using **GNU Octave** to automate common calculations performed in three-phase AC electrical systems.
-
-This project was created to strengthen my understanding of electrical engineering concepts while applying programming to solve practical engineering problems.
+The Three-Phase Power Calculator is a GNU Octave application developed to calculate important electrical parameters in a three-phase AC system. The project uses modular programming by separating each calculation into individual functions.
 
 ---
 
-## 🎯 Objectives
+## Features
 
 - Calculate Real Power
 - Calculate Apparent Power
@@ -18,57 +16,79 @@ This project was created to strengthen my understanding of electrical engineerin
 
 ---
 
-## 🛠️ Technologies Used
+## Engineering Formulas
+
+### Real Power
+
+P = √3 × V × I × pf
+
+### Apparent Power
+
+S = √3 × V × I
+
+### Power Factor
+
+pf = P / S
+
+### Current
+
+I = P / (√3 × V × pf)
+
+### Voltage
+
+V = P / (√3 × I × pf)
+
+---
+
+## Technologies Used
 
 - GNU Octave
-- MATLAB-Compatible Programming
+- Electrical Engineering Fundamentals
 - Modular Programming
-- Menu-Driven Programming
 
 ---
 
-## 📚 Engineering Concepts
+## Project Structure
 
-This project is based on the following electrical engineering concepts:
-
-- Three-Phase AC Systems
-- Real Power
-- Apparent Power
-- Power Factor
-- Electrical Power Calculations
-
----
-
-## 📂 Project Files
-
-- `main.m`
-- `calcRealPower.m`
-- `calcApparentPower.m`
-- `calcPowerFactor.m`
-- `calcCurrent.m`
-- `calcVoltage.m`
+```
+01_Three_Phase_Power_Calculator
+│
+├── main.m
+├── calcRealPower.m
+├── calcApparentPower.m
+├── calcPowerFactor.m
+├── calcCurrent.m
+├── calcVoltage.m
+└── README.md
+```
 
 ---
 
-## ▶️ How to Run
+## Sample Input
 
-1. Open GNU Octave.
-2. Place all project files in the same folder.
-3. Run `main.m`.
-4. Select the required calculation from the menu.
+Voltage : 415 V
 
----
+Current : 20 A
 
-## 📈 Future Improvements
-
-- Add a graphical user interface (GUI).
-- Improve input validation.
-- Include additional three-phase electrical calculations.
-- Export calculation results to a file.
+Power Factor : 0.85
 
 ---
 
-## 👩‍💻 Author
+## Sample Output
+
+Real Power : 12220.65 W
+
+Apparent Power : 14376.02 VA
+
+Power Factor : 0.85
+
+Calculated Current : 20.00 A
+
+Calculated Voltage : 415.00 V
+
+---
+
+## Author
 
 **Thota Sadhika**
 
