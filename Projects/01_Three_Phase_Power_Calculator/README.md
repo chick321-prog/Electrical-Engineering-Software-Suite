@@ -88,6 +88,11 @@ Calculated Voltage : 415.00 V
 
 ---
 
+## Program Output
+
+![Program Output](output.png)
+
+---
 ## Author
 
 **Thota Sadhika**
