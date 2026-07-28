@@ -109,11 +109,9 @@ Calculation Completed Successfully.
 
 ## 📷 Program Output
 
-Add your program screenshot as **output.png**.
 
-```markdown
 ![Program Output](output.png)
-```
+
 
 ---
 
