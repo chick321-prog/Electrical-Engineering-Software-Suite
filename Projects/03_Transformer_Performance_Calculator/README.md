@@ -28,32 +28,47 @@ The project is implemented using separate user-defined functions to promote modu
 - Well-formatted output
 
 ---
-
 ## 📐 Formulae Used
 
 ### Input Power
 
-\[
-P_{in}=V_p \times I_p
-\]
+**Input Power (Pin) = Primary Voltage × Primary Current**
+
+```
+Pin = Vp × Ip
+```
+
+---
 
 ### Output Power
 
-\[
-P_{out}=V_s \times I_s
-\]
+**Output Power (Pout) = Secondary Voltage × Secondary Current**
+
+```
+Pout = Vs × Is
+```
+
+---
 
 ### Transformer Efficiency
 
-\[
-\eta=\frac{P_{out}}{P_{in}}\times100
-\]
+**Efficiency (%) = (Output Power / Input Power) × 100**
+
+```
+Efficiency (%) = (Pout / Pin) × 100
+```
+
+---
 
 ### Turns Ratio
 
-\[
-\text{Turns Ratio}=\frac{N_p}{N_s}
-\]
+**Turns Ratio = Primary Turns / Secondary Turns**
+
+```
+Turns Ratio = Np / Ns
+```
+
+
 
 ---
 
