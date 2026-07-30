@@ -112,6 +112,13 @@ Calculation Completed Successfully.
 ```
 
 ---
+## 📷 Program Output
+
+
+![Program Output](output.png)
+
+
+---
 
 ## 🛠 Technologies Used
 
@@ -130,16 +137,6 @@ Calculation Completed Successfully.
 - Function Programming
 - Modular Programming
 - User Input and Output Formatting
-
----
-
-## 🚀 Future Improvements
-
-- Calculate Voltage Ratio
-- Compare Voltage Ratio with Turns Ratio
-- Include Copper and Core Loss Calculations
-- Add Regulation Calculation
-- Develop a Graphical User Interface (GUI)
 
 ---
 
